@@ -71,7 +71,7 @@ const Showresults = solution => {
             resultText = `This comment is <span class="negative">negative!</span>`;
             break;
         case 'neutral':
-            resultText = `This comment is <span class="positive">neutral</span>`;
+            resultText = `This comment is <span class="neutral">neutral</span>`;
             break;
         default:
             resultText = `Unfortunately it was not possible to analyze this comment`;
