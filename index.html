@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Sentiment</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Text Sentiment</h2>
+        <p>Sentiment analysis is becoming an essential tool to track and understand consumer sentiment because customers
+            are more open about their sentiments than ever before.
+            Automatically analyzing customer feedback, such as opinions in survey responses and social media
+            conversations, allows brands to learn what makes customers happy or frustrated, so that they can tailor
+            products and services to meet their customers’ needs.
+        </p>
+        <section class="input-comment">
+            <label for="comment">Your text:</label>
+            <textarea name="comment" id="comment" class="comment-area" placeholder="Comment here..."></textarea>
+            <button class="button">Analyze</button>
+
+        </section>
+        <section class="result-box">
+            <p class="result-block invisible">
+                <span>Output:</span>
+                <span class="result"></span>
+            </p>
+        </section>
+    </div>
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>
