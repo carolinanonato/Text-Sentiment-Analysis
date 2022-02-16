@@ -21,13 +21,13 @@
         <section class="input-comment">
             <label for="comment">Your text:</label>
             <textarea name="comment" id="comment" class="comment-area" placeholder="Comment here..."></textarea>
-            <button class="button">Analyze</button>
+            <button class="button" onclick="checkSentiment()">Analyze</button>
 
         </section>
         <section class="result-box">
-            <p class="result-block invisible">
+            <p id="result-area" class="result-area hide">
                 <span>Output:</span>
-                <span class="result"></span>
+                <span id="solution"></span>
             </p>
         </section>
     </div>
