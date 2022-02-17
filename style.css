@@ -22,12 +22,18 @@ body {
     color: rgb(240, 101, 141);
   text-decoration: none;
   margin-bottom: 20px;
-  padding-top: 30px
+  padding-top: 30px;
+  font-size: 30px;
 }
 
+a {
+   
+    color: inherit;
+}
 
 .description {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .comment-area {
@@ -39,7 +45,7 @@ body {
 }
 
 button {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     display: block;
     height: 30px;
@@ -47,6 +53,11 @@ button {
     background-color: rgb(240, 101, 141);
     color: white;
     font-size: 15px;
+   cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(2px);
 }
 
 #result-area{
